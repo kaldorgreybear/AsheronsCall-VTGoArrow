@@ -6,16 +6,16 @@
       <Value Profile="(Default)">https://www.arcayn.com/asherons-call/maps/</Value>
     </Setting>
     <Setting Name="DungeonListURL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://www.arcayn.com/asherons-call/maps/dungeon_ids.csv</Value>
+      <Value Profile="(Default)">https://www.arcayn.com/asherons-call/maps/dungeon_ids.csv.notimportantanymore</Value>
     </Setting>
     <Setting Name="MapCacheRefreshDays" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">1000</Value>
+      <Value Profile="(Default)">5000</Value>
     </Setting>
     <Setting Name="DungeonListCacheRefreshDays" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">1000</Value>
+      <Value Profile="(Default)">5000</Value>
     </Setting>
     <Setting Name="BlacklistAgeDays" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">1000</Value>
+      <Value Profile="(Default)">5000</Value>
     </Setting>
     <Setting Name="DungeonCacheFile" Type="System.String" Scope="User">
       <Value Profile="(Default)">https://www.arcayn.com/asherons-call/maps/dungeons.txt</Value>
