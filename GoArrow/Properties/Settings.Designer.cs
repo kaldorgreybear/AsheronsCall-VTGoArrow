@@ -25,7 +25,7 @@ namespace GoArrow.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://www.arcayn.com/asherons-call/maps/")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://acmaps.arcayn.com/maps/")]
         public string DungeonBaseURL {
             get {
                 return ((string)(this["DungeonBaseURL"]));
@@ -37,7 +37,7 @@ namespace GoArrow.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://www.arcayn.com/asherons-call/maps/dungeon_ids.csv.notimportantanymore")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://acmaps.arcayn.com/maps/notused.csv")]
         public string DungeonListURL {
             get {
                 return ((string)(this["DungeonListURL"]));
@@ -49,7 +49,7 @@ namespace GoArrow.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("5000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
         public int MapCacheRefreshDays {
             get {
                 return ((int)(this["MapCacheRefreshDays"]));
@@ -61,7 +61,7 @@ namespace GoArrow.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("5000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
         public int DungeonListCacheRefreshDays {
             get {
                 return ((int)(this["DungeonListCacheRefreshDays"]));
@@ -73,7 +73,7 @@ namespace GoArrow.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("5000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
         public int BlacklistAgeDays {
             get {
                 return ((int)(this["BlacklistAgeDays"]));
@@ -85,13 +85,25 @@ namespace GoArrow.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://www.arcayn.com/asherons-call/maps/dungeons.txt")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://acmaps.arcayn.com/maps/dungeons.txt")]
         public string DungeonCacheFile {
             get {
                 return ((string)(this["DungeonCacheFile"]));
             }
             set {
                 this["DungeonCacheFile"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EnableBlacklist {
+            get {
+                return ((bool)(this["EnableBlacklist"]));
+            }
+            set {
+                this["EnableBlacklist"] = value;
             }
         }
     }

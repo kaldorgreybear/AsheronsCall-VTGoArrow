@@ -3,22 +3,25 @@
   <Profiles />
   <Settings>
     <Setting Name="DungeonBaseURL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://www.arcayn.com/asherons-call/maps/</Value>
+      <Value Profile="(Default)">http://acmaps.arcayn.com/maps/</Value>
     </Setting>
     <Setting Name="DungeonListURL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://www.arcayn.com/asherons-call/maps/dungeon_ids.csv.notimportantanymore</Value>
+      <Value Profile="(Default)">http://acmaps.arcayn.com/maps/notused.csv</Value>
     </Setting>
     <Setting Name="MapCacheRefreshDays" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">5000</Value>
+      <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="DungeonListCacheRefreshDays" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">5000</Value>
+      <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="BlacklistAgeDays" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">5000</Value>
+      <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="DungeonCacheFile" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://www.arcayn.com/asherons-call/maps/dungeons.txt</Value>
+      <Value Profile="(Default)">http://acmaps.arcayn.com/maps/dungeons.txt</Value>
+    </Setting>
+    <Setting Name="EnableBlacklist" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
     </Setting>
   </Settings>
 </SettingsFile>

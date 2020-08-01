@@ -1419,7 +1419,7 @@ namespace GoArrow
 			chkHudToolbarText.Checked = (mToolbar.Display & ToolbarDisplay.Text) != 0;
 		}
 
-		private void ReloadDungeonList()
+		public void ReloadDungeonList()
 		{
 			choDungeonMap.Clear();
 			choDungeonMap.Add("<None>", 0);
@@ -2147,16 +2147,16 @@ namespace GoArrow
 			catch (Exception ex) { Util.HandleException(ex); }
 		}
 
-		[MyClasses.MetaViewWrappers.MVControlEvent("btnDungeonMapClearCache", "Click")]
-		private void btnDungeonMapClearCache_Click(object sender, MyClasses.MetaViewWrappers.MVControlEventArgs e)
-		{
-			try
-			{
-				mDungeonHud.ClearCache();
-				ReloadDungeonList();
-			}
-			catch (Exception ex) { Util.HandleException(ex); }
-		}
+		//[MyClasses.MetaViewWrappers.MVControlEvent("btnDungeonMapClearCache", "Click")]
+		//private void btnDungeonMapClearCache_Click(object sender, MyClasses.MetaViewWrappers.MVControlEventArgs e)
+		//{
+		//	try
+		//	{
+		//		mDungeonHud.ClearCache();
+		//		ReloadDungeonList();
+		//	}
+		//	catch (Exception ex) { Util.HandleException(ex); }
+		//}
 
 		[MyClasses.MetaViewWrappers.MVControlEvent("btnDungeonMapCancelDL", "Click")]
 		private void btnDungeonMapCancelDL_Click(object sender, MyClasses.MetaViewWrappers.MVControlEventArgs e)
