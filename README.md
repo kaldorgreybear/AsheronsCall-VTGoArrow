@@ -14,4 +14,4 @@ These maps download from arcayn.com archive.
 To install download the two files under releases, the DLL and dll.config.
 Copy to your goarrow folder, default is C:\Games\VirindiPlugins\GoArrowVVSEdition
 Click yes to overwrite the two files
-Restart AC if it's already open.
+Restart AC if it's already open. 
